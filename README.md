@@ -1,2 +1,1 @@
-# llama-index
-A Streamlit application that allows users to ask questions about "Baber" and get responses powered by OpenAI's LLM. The app reads documents from a local directory, indexes them using the LLM, and returns relevant answers to user queries.
+This repository contains a Streamlit application that leverages OpenAI's LLM to provide answers to user queries about "Baber." The app indexes local documents to give context-aware and relevant responses. Ensure you have the necessary packages installed and set your OpenAI API key as an environment variable or directly in the script (not recommended for production). To run the app, use streamlit run app_filename.py.
